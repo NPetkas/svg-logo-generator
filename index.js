@@ -1,5 +1,5 @@
 const inquirer = require('inquirer');
-const {renderSVGFile} = require('./lib/svg');
+const {renderSVGLogo} = require('./lib/svg');
 
 inquirer.prompt([
     {
@@ -26,6 +26,6 @@ inquirer.prompt([
     
 ]).then((answers) => {
     if (answers) {
-    renderSVGFile(answers);
+    renderSVGLogo(answers);
     };
 });

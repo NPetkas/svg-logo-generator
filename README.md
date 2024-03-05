@@ -42,6 +42,15 @@ To contribute:
 
 run node and the js file name to test
 
+## Link to Video Demo
+
+![image](./images/svg-logo-generator_demo.gif)
+![image](./images/logo.svg)
+
+[SVG Logo Generator Demo][def]
+
+[def]: https://drive.google.com/file/d/1DXURQGbsJbhypJqGYQlj-8GI3EThSz6i/view
+
 
 ## Questions
 

@@ -1,6 +1,7 @@
 const inquirer = require('inquirer');
 const {renderSVGLogo} = require('./lib/svg');
 
+// inquirer questions prompt
 inquirer.prompt([
     {
         type: 'input',
@@ -24,6 +25,7 @@ inquirer.prompt([
         message: "Enter shape color",
     },
     
+// callback function to render logo after all questions are answered 
 ]).then((answers) => {
     if (answers) {
     renderSVGLogo(answers);
